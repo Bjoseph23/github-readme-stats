@@ -5,7 +5,6 @@ services:
     plan: free
     buildCommand: npm ci
     startCommand: npm start
-    healthCheckPath: /api?username=anuraghazra
     envVars:
       - key: PAT_1
         sync: false
